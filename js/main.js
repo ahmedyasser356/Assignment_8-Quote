@@ -16,6 +16,8 @@
 
 
   function displayQuote(){
+
+    
     var num = Math.ceil(Math.random()*10)
     
     var quoteContent =`  <h4 id="phrase" class="h3 mb-4">"${quotes[num].quotePhrase}"</h4>
