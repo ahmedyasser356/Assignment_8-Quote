@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+ h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .times-news{
+    font-family: 'Times New Roman', Times, serif;
+ }
