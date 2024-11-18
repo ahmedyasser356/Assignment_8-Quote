@@ -18,8 +18,8 @@
   function displayQuote(){
     var num = Math.ceil(Math.random()*10)
     
-    var quoteContent =`  <h4 id="phrase" class="h2 mb-4">"${quotes[num].quotePhrase}"</h4>
-                         <h3 id="who" class="h2">--${quotes[num].who}</h3> `
+    var quoteContent =`  <h4 id="phrase" class="h3 mb-4">"${quotes[num].quotePhrase}"</h4>
+                         <h3 id="who" class="h3">--${quotes[num].who}</h3> `
     document.getElementById('quote').innerHTML = quoteContent;
     
   }
