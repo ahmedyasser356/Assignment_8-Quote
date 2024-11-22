@@ -13,12 +13,17 @@
   ]
 
   
-
+var testNum = 10 ;
 
   function displayQuote(){
 
     
-    var num = Math.floor(Math.random()*11)
+    do {var num = Math.floor(Math.random()*11) }
+    while(num == testNum){
+       
+    }
+    testNum = num;
+    console.log(num);
     
     var quoteContent =`  <h4 id="phrase" class="h3 w-75 m-auto mb-4">"${quotes[num].quotePhrase}"</h4>
                          <h3 id="who" class="h3">--${quotes[num].who}</h3> `
